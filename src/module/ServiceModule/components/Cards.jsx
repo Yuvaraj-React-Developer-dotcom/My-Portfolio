@@ -1,5 +1,5 @@
 import React from "react";
-import CardComponent from "../../../components/cardComponent";
+import CardComponent from "../../../components/CardComponent";
 const windowWidth = window.innerWidth - 32;
 const windowHeight = window.innerHeight;
 console.log(windowWidth, "find windowWidth");

@@ -3,7 +3,7 @@ import SvgLinkedIn from "../../assets/icons/SvgLinkedIn";
 import SvgGitHub from "../../assets/icons/SvgGitHub";
 import SvgWhatspp from "../../assets/icons/SvgWhatspp";
 import SvgEmail from "../../assets/icons/SvgEmail";
-import CardComponent from "../cardComponent";
+import CardComponent from '../CardComponent'
 
 const FooterComponent = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import CardComponent from "../../../components/cardComponent";
+import CardComponent from "../../../components/CardComponent";
 import SvgHome from "../../../assets/icons/SvgHome";
 import SvgAbout from "../../../assets/icons/SvgAbout";
 import SvgService from "../../../assets/icons/SvgService";

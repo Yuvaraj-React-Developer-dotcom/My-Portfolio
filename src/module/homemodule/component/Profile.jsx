@@ -26,7 +26,7 @@ const Profile = () => {
           style={{ width: windowWidth - 26, height: windowWidth - 26 }}
         >
           <div className="relative w-full h-full">
-            <div className="react-spin absolute -top-[16px] -right-[8px] md:right-[16%] w-[44px] md:w-[64px]">
+            <div className="react-spin absolute -top-[16px] -right-[12px] md:right-[16%] w-[44px] md:w-[64px]">
               <SvgReact />
             </div>
             <div className="absolute -top-[16px] left-0 md:left-[20%] animate-bounce w-6 h-6">

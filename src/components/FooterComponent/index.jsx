@@ -39,7 +39,7 @@ const FooterComponent = () => {
             </a>
           </CardComponent>
         </div>
-        <div className="flex flex-row gap-x-2 text-white font-[500] text-[12px] md:text-xl lg:text-2xl">
+        <div className="flex flex-row gap-x-2 text-white font-bold text-[12px] md:text-xl lg:text-2xl">
           <CardComponent>
             <a href="#home">
               <div className="cursor-pointer uppercase p-[6px] md:p-4">Home</div>

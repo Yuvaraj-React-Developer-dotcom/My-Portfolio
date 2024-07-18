@@ -24,7 +24,7 @@ const SocialMedia = () => {
             </a>
           </CardComponent>
           <CardComponent>
-            <a href="https://api.whatsapp.com/send?phone=9600449077" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=+91 9600449077" target="_blank">
               <div className="cursor-pointer p-1 md:p-4">
                 <SvgWhatspp />
               </div>

@@ -1,10 +1,10 @@
 import React from "react";
 
-const SvgAndroid = () => {
+const SvgAndroid = ({ width = "32", height = "32" }) => {
   return (
     <svg
-      width="32"
-      height="32"
+      width={width}
+      height={height}
       fill="green"
       class="bi bi-android2"
       viewBox="0 0 16 16"

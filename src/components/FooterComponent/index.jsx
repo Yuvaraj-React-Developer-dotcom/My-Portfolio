@@ -39,29 +39,29 @@ const FooterComponent = () => {
             </a>
           </CardComponent>
         </div>
-        <div className="flex flex-row gap-x-2 text-white font-bold text-base md:text-xl lg:text-2xl">
+        <div className="flex flex-row gap-x-2 text-white font-[500] text-[12px] md:text-xl lg:text-2xl">
           <CardComponent>
             <a href="#home">
-              <div className="cursor-pointer uppercase p-1 md:p-4">Home</div>
+              <div className="cursor-pointer uppercase p-[6px] md:p-4">Home</div>
             </a>
           </CardComponent>
           <CardComponent>
             <a href="#about">
-              <div className="cursor-pointer uppercase p-1 md:p-4">
+              <div className="cursor-pointer uppercase p-[6px] md:p-4">
                 About
               </div>
             </a>
           </CardComponent>
           <CardComponent>
             <a href="#services">
-              <div className="cursor-pointer uppercase p-1 md:p-4">
+              <div className="cursor-pointer uppercase p-[6px] md:p-4">
                 Services
               </div>
             </a>
           </CardComponent>
           <CardComponent>
             <a href="#resume">
-              <div className="cursor-pointer uppercase p-1 md:p-4">
+              <div className="cursor-pointer uppercase p-[6px] md:p-4">
                 CV Resume
               </div>
             </a>

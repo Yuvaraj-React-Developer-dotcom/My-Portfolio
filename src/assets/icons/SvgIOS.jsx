@@ -1,10 +1,10 @@
 import React from "react";
 
-const SvgIOS = () => {
+const SvgIOS = ({ width = "32", height = "32" }) => {
   return (
     <svg
-      width="32"
-      height="32"
+      width={width}
+      height={height}
       fill="#A3AAAE"
       class="bi bi-apple"
       viewBox="0 0 16 16"

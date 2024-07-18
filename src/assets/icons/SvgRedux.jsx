@@ -1,10 +1,10 @@
 import React from "react";
 
-const SvgRedux = () => {
+const SvgRedux = ({width="32",height="32"}) => {
   return (
     <svg
-      width="32"
-      height="32"
+      width={width}
+      height={height}
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 244"
       id="redux"

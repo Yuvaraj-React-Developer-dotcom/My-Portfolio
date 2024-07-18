@@ -1,10 +1,10 @@
 import React from "react";
 
-const SvgCSS = () => {
+const SvgCSS = ({ width = "32", height = "32" }) => {
   return (
     <svg
-      width="32"
-      height="32"
+      width={width}
+      height={height}
       fill="#264de4"
       class="bi bi-filetype-css"
       viewBox="0 0 16 16"

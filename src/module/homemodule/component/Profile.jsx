@@ -8,6 +8,7 @@ import SvgJavaScript from "../../../assets/icons/SvgJavaScript";
 import SvgAndroid from "../../../assets/icons/SvgAndroid";
 import SvgIOS from "../../../assets/icons/SvgIOS";
 const windowWidth = window.innerWidth * 0.4;
+const IconWidth = window.innerWidth;
 
 const Profile = () => {
   return (
@@ -22,32 +23,32 @@ const Profile = () => {
         </div>
         <div
           className="rounded-full border-[#65B741] border-2 "
-          style={{ width: windowWidth -26, height: windowWidth -26 }}
+          style={{ width: windowWidth - 26, height: windowWidth - 26 }}
         >
           <div className="relative w-full h-full">
-            <div className="react-spin absolute -top-[16px] -right-[32px] md:right-[16%] w-[64px]">
+            <div className="react-spin absolute -top-[16px] -right-[8px] md:right-[16%] w-[44px] md:w-[64px]">
               <SvgReact />
             </div>
             <div className="absolute -top-[16px] left-0 md:left-[20%] animate-bounce w-6 h-6">
-              <SvgRedux />
+              <SvgRedux width={IconWidth < 640 ? "24" : "32"} />
             </div>
             <div className="absolute -left-[32px]  top-[25%] animate-bounce w-6 h-6">
-              <SvgAndroid />
+              <SvgAndroid width={IconWidth < 640 ? "24" : "32"} />
             </div>
             <div className="absolute -left-[32px]  bottom-[25%] animate-bounce w-6 h-6">
-              <SvgIOS />
+              <SvgIOS width={IconWidth < 640 ? "24" : "32"} />
             </div>
             <div className="absolute -right-[32px]  top-[25%] animate-bounce w-6 h-6">
-              <SvgTypeScript />
+              <SvgTypeScript width={IconWidth < 640 ? "24" : "32"} />
             </div>
             <div className="absolute -right-[32px]  bottom-[25%] animate-bounce w-6 h-6">
-              <SvgJavaScript />
+              <SvgJavaScript width={IconWidth < 640 ? "24" : "32"} />
             </div>
             <div className="absolute -bottom-[16px] left-0 md:left-[20%] animate-bounce w-6 h-6">
-              <SvgHTML />
+              <SvgHTML width={IconWidth < 640 ? "24" : "32"} />
             </div>
             <div className="absolute -bottom-[16px]  right-0 md:right-[20%] animate-bounce w-6 h-6">
-              <SvgCSS />
+              <SvgCSS width={IconWidth < 640 ? "24" : "32"} />
             </div>
           </div>
         </div>

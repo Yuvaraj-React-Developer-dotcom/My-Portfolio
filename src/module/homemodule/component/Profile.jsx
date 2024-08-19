@@ -17,6 +17,7 @@ const Profile = () => {
       <div className="h-[100%] flex flex-col items-center justify-center relative">
         <div className="absolute -z-[1]" style={{ width: windowWidth - 26, height: windowWidth - 26 }}>
           <img
+            loading="lazy"
             src={img}
             alt=""
             className="h-[100%] rounded-full"

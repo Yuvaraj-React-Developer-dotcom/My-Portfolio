@@ -9,16 +9,17 @@ import SvgAndroid from "../../../assets/icons/SvgAndroid";
 import SvgIOS from "../../../assets/icons/SvgIOS";
 const windowWidth = window.innerWidth * 0.4;
 const IconWidth = window.innerWidth;
+import img from "../../../assets/images/uv.png"
 
 const Profile = () => {
   return (
     <div className="col-span-2 h-[100%] mt-4">
       <div className="h-[100%] flex flex-col items-center justify-center relative">
-        <div className="absolute h-[100%] z-[1]">
+        <div className="absolute -z-[1]" style={{ width: windowWidth - 26, height: windowWidth - 26 }}>
           <img
-            src="https://i.ibb.co/BCs4NpX/y-prev-ui.png"
+            src={img}
             alt=""
-            className="h-[100%]"
+            className="h-[100%] rounded-full"
           />
         </div>
         <div
